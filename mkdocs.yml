@@ -1,6 +1,6 @@
 site_name: OJAYSAN
 site_description: My adventures in the matrix!
-site_url: https://thejaykid7.github.io/retrosite/ #https://retro.ojaysan.com
+site_url: https://retro.ojaysan.com
 
 nav:
   - index.md
