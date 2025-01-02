@@ -4,6 +4,7 @@ on:
     branches:
       - master 
       - main
+      - test
 permissions:
   contents: write
 jobs:
