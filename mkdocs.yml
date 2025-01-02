@@ -1,0 +1,54 @@
+site_name: OJAYSAN
+site_description: My adventures in the matrix!
+site_url: https://retro.ojaysan.com
+
+nav:
+  - index.md
+
+
+theme:
+  name: 'material'
+  features:
+    - navigation.instant
+    - navigation.prune
+    - toc.integrate
+    - navigation.top
+    - navigation.indexes
+  font:
+    text: Roboto
+  icon:
+    logo: material/alpha-o-circle
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-3
+        name: Switch to system preference
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+plugins:
+  - glightbox
+  - blog:
+      blog_dir: .
+      blog_toc: true
+  - search
+  - privacy
