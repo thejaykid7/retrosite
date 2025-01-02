@@ -15,13 +15,18 @@ tags:
 
 # Retro Handheld Setup Primer
 So you want to setup your shiny Retroid Pocket device, or another Android handheld device? This guide will help you with getting your started.
+
+<!-- more -->
+
 # Before you get your Handheld
 Use this section to start getting these items as you wait for your device to come in and read this guide to set up your device. Keep in mind since this is an Android device at its core, you will be able to simply use the device itself to configure everything from there without a PC. But for sourcing ROMs, having a PC is very handy.
 ## Hardware
 I highly suggest to get a good card that's large. Buy once, cry once as they say. You can load up all the stuff you'll ever need to set up your device.  You will probably be using ~50GB or so for just artwork but it really depends on how many games you have to store. ES-DE will fetch video, photos of the game and there isn't really a way to configure this. 
-- microSD card
-	- 512gb or more for games and ES-DE Artwork
-	- Something with V30 speed, usually they cards are more durable
+
+| MicroSD | Size  | Specs     | Price                  | Notes                                         |
+| ------- | ----- | --------- | ---------------------- | --------------------------------------------- |
+| Samsung | 512GB | V30 ideal | Usually cheaper        | Has different offerings and levels of quality |
+| Sandisk | 512GB | V30 ideal | Usually more expensive | Has fewer offerings of quality levels         |
 ## Apps & Software
 The items in Utilities are optional but help make the experience nicer. In this guide we are using ES-DE as our game launcher but it is optional. Retroid for example has their own game launcher but this guide is not currently focused on using that application.
 ### Free
@@ -34,6 +39,8 @@ The items in Utilities are optional but help make the experience nicer. In this 
 | Zarchiver      | to handle unzips                                                                                                                                                                                                                                                                                         |
 | Rufus          | for flashing and setting up ext4                                                                                                                                                                                                                                                                         |
 | google account | for android ecosystem. Create a Google account if you already don't have one. You'll want this for setting up your handheld. You can get away without this, but you won't have access to the play store to grab the above apps. If you're advanced, you can use F-Droid or Aurora store so get the apps. |
+
+
 ### Paid
 #### Frontend
 - ES-DE - The frontend you'll be setting up. It is paid, but very much worth using. Refer to their site to purchase and download the app. It's a one time deal but be sure to follow their instructions to cancel so you don't get charged monthly (unless you want to)!
@@ -53,6 +60,7 @@ The items in Utilities are optional but help make the experience nicer. In this 
 | PS2             | Aethersx2 / Nethersx2 |
 | Switch          | Yuzu                  |
 | Wii             | Dolphin               |
+
 ## Configure your microSD Card
 Once you have all the apps above available, go ahead and format your card on your PC/laptop/etc. You will want to use the ExFAT format.
 
@@ -168,6 +176,7 @@ This is where I will list out various settings for the different android handhel
 | Render | Upscale   | Shader Comp Mode   | Compile Shaders Before Starting | Aspect Ratio |
 | ------ | --------- | ------------------ | ------------------------------- | ------------ |
 | Vulkan | 3x Native | Hybrid Ubershaders | On                              | Force 16:9   |
+
 #### Device Input Setup
 Input setup is probably the most complicated here due the wii's unique input
 
@@ -182,14 +191,17 @@ Here's what I use. Keep in mind this is referencing  the stock Retroid layout wh
 | X   | A          |
 | Y   | X          |
 | Z   | R1         |
+
 ###### Control Stick
 | App | Controller                |
 | --- | ------------------------- |
 | CS  | Use **Left** analog stick |
+
 ###### C Stick
 | App | Controller                 |
 | --- | -------------------------- |
 | CS  | Use **Right** analog stick |
+
 ###### Triggers
 | App | Controller           |
 | --- | -------------------- |
@@ -230,6 +242,7 @@ Configuring Citra is straightforward compared to the previous systems.
 | Render   | Upscale   | Others                                                                            |
 | -------- | --------- | --------------------------------------------------------------------------------- |
 | OpenGLES | 4x Native | Enable SPIR-V shader generation: On<br>Enable Asynchronous shader compilation: On |
+
 #### Device Input Setup
 Similar to other emulators discussed earlier, the inputs by mapping each button to the respective entries. The main thing here is to go into controller settings and then "Touchscreen" tab. Here find the "Hide With External Controller" and make sure the toggle is on. This will hide the input control overlay. Next, go to the "Controller Port 1". You can try the automatic mapping but I find that it doesn't work for all android handhelds. Otherwise, go ahead and assign the respective keys to each entry.
 
@@ -247,6 +260,7 @@ So there are ways to combine game files to contain all of the patches and DLC bu
 | Render | Upscale   | Docked Mode | Audio          | GPU driver manager                 |
 | ------ | --------- | ----------- | -------------- | ---------------------------------- |
 | N/A    | 1x Native | Preference  | Per game basis | vulkan 1.3.296 Mesa driver Rev 9v2 |
+
 #### Device Input Setup
 See the citra setup, its the same changes here.
 
