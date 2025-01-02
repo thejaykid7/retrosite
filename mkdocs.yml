@@ -55,5 +55,5 @@ plugins:
       blog_dir: .
       blog_toc: true
   - search
-  - privacy
+  # - privacy
   - tags  
