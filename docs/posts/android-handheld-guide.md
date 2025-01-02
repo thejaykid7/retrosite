@@ -12,7 +12,8 @@ tags:
   - Retroid
   - Ayn
   - Handhelds
-  - Guides  
+  - Guides 
+  - Retro Gaming 
 comments: true
 ---
 
@@ -26,9 +27,13 @@ So you want to setup your shiny Retroid Pocket device, or another Android handhe
 
 If you want to support me, you can do so via the following:
 
+<div class="grid" markdown>
+
 <a href="https://www.buymeacoffee.com/ojaysan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 <a href='https://ko-fi.com/A3733GWR' target='_blank'><img height='36' style='border:0px;height:36px;width:217px' src='https://ko-fi.com/img/githubbutton_sm.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+</div>
 
 ## Before you get your Handheld
 
@@ -98,8 +103,8 @@ It's going to pay off to be organized so here's an example of how I set up my sd
 ```
 .
 |─ .ROMS/
-|	(ES-DE will populate the different system folders)
-|─ 	|─ gb
+|	(ES-DE will populate the different system folders, some examples below)
+| 	|─ gb
 |	|─ gba
 |	|─ gbc
 |	|─ switch
@@ -115,6 +120,9 @@ It's going to pay off to be organized so here's an example of how I set up my sd
 |	|_ nethersx2
 |─ .ES-DE/
 ```
+
+!!! note
+	Common to confuse 3ds for 3ds games. The right folder to use is n3ds.
 
 Create the various folders like so and that's all you'll really need to get started. In the deviceSetup folder, you'll see three subfolders you need to make. 
 
@@ -219,9 +227,9 @@ This is where you'll want to start binding your handheld's inputs. Go to the **C
 
 We'll set up the basics here. In the same subfolder as in the Device Input Setup, find the **Hotkeys** section. 
 
-- Hotkey Enable: Select or L3
-- Menu Toggle: top face button (either x or y if you're in switch or xbox layout)
-- Quit: Start
+| Hotkey Enable | Menu Toggle  | Quit |
+| --------------| ----- | --------- |
+| Select or L3 | top face button (either x or y if you're in switch or xbox layout) | Start | 
 
 You can set up the others like fast forward for example to a trigger button, or saving to a savestate. I've just noted the ones you'll be using most often to get in and out.
 
@@ -377,6 +385,23 @@ Configuring Citra is straightforward compared to the previous systems.
 
 Similar to other emulators discussed earlier, the inputs by mapping each button to the respective entries. The main thing here is to go into controller settings and then "Touchscreen" tab. Here find the "Hide With External Controller" and make sure the toggle is on. This will hide the input control overlay. Next, go to the "Controller Port 1". You can try the automatic mapping but I find that it doesn't work for all android handhelds. Otherwise, go ahead and assign the respective keys to each entry. If you're using a switch style layout, its pretty straightforward.
 
+###### Buttons
+
+| App | Controller |
+| --- | ---------- |
+| A   | A          |
+| B   | B          |
+| X   | X          |
+| Y   | Y          |
+| L1  | L1         |
+| R1  | R1         |
+| L2  | L2         |
+| R2  | R2         |
+| L3  | L3         |
+| R3  | R3         |
+| Start   | Start  |
+| Select  | Select |
+
 #### Yuzu
 
 ##### Configuration
@@ -403,6 +428,10 @@ See the citra setup, its the same changes here.
 
 
 ## Advanced Topics
+
+### Odin Tools
+
+Will be filled out later
 
 ### Syncthing
 
@@ -434,6 +463,10 @@ If you've made it through this guide, you now have all the tools needed to set u
 
 If you want to support me, you can do so via the following:
 
+<div class="grid" markdown>
+
 <a href="https://www.buymeacoffee.com/ojaysan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 <a href='https://ko-fi.com/A3733GWR' target='_blank'><img height='36' style='border:0px;height:36px;width:217px' src='https://ko-fi.com/img/githubbutton_sm.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+</div>
