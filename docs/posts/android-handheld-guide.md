@@ -26,9 +26,10 @@ So you want to setup your shiny Retroid Pocket device, or another Android handhe
 
 If you want to support me, you can do so via the following:
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A3733GWR)
+<a href="https://www.buymeacoffee.com/ojaysan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-<!-- [![buymeacoffee](https://ko-fi.com/img/githubbutton_sm.svg)](https://buymeacoffee.com/ojaysan) -->
+<a href='https://ko-fi.com/A3733GWR' target='_blank'><img height='36' style='border:0px;height:36px;width:217px' src='https://ko-fi.com/img/githubbutton_sm.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 ## Before you get your Handheld
 
 Use this section to start getting these items as you wait for your device to come in and read this guide to set up your device. Keep in mind since this is an Android device at its core, you will be able to simply use the device itself to configure everything from there without a PC. But for sourcing ROMs, having a PC is very handy.
@@ -154,11 +155,11 @@ When you open the app back up, you'll be greeted with a Playstation like theme. 
 
 <div class="grid" markdown>
 
-![Image title](media/android-guide/ra_dir.png)
+![Image title](media/android-guide/ra_dir.png){ loading=lazy }
 
-![Image title](media/android-guide/ra_dir_config.png)
+![Image title](media/android-guide/ra_dir_config.png){ loading=lazy }
 
-![Image title](media/android-guide/ra_save_config.png)
+![Image title](media/android-guide/ra_save_config.png){ loading=lazy }
 
 </div>
 
@@ -168,9 +169,9 @@ The first thing you will want to do is enable **Save Configuration on Quit** as 
 
 <div class="grid" markdown>
 
-![Image title](media/android-guide/ra_update_assets.png)
+![Image title](media/android-guide/ra_update_assets.png){ loading=lazy }
 
-![Image title](media/android-guide/ra_update_online.png)
+![Image title](media/android-guide/ra_update_online.png){ loading=lazy }
 
 </div>
 
@@ -190,9 +191,9 @@ Once selected, update the following:
 
 <div class="grid" markdown>
 
-![Image title](media/android-guide/ra_core_gba.png)
+![Image title](media/android-guide/ra_core_gba.png){ loading=lazy }
 
-![Image title](media/android-guide/ra_core_dl.png)
+![Image title](media/android-guide/ra_core_dl.png){ loading=lazy }
 
 </div>
 
@@ -206,9 +207,9 @@ Check back later.
 
 <div class="grid" markdown>
 
-![Image title](media/android-guide/ra_input_1.png)
+![Image title](media/android-guide/ra_input_1.png){ loading=lazy }
 
-![Image title](media/android-guide/ra_input_2.png)
+![Image title](media/android-guide/ra_input_2.png){ loading=lazy }
 
 </div>
 
@@ -268,9 +269,9 @@ Hotkeys aren't needed as the back button works well.
 
 <div class="grid" markdown>
 
-![Image title](media/android-guide/dolphin_graphics_1.png)
+![Image title](media/android-guide/dolphin_graphics_1.png){ loading=lazy }
 
-![Image title](media/android-guide/dolphin_graphics_2.png)
+![Image title](media/android-guide/dolphin_graphics_2.png){ loading=lazy }
 
 </div>
 
@@ -292,7 +293,7 @@ Input setup is probably the most complicated here due the wii's unique input
 
 <div class="grid" markdown>
 
-![Image title](media/android-guide/dolphin_gc_input_1.png)
+![Image title](media/android-guide/dolphin_gc_input_1.png){ loading=lazy }
 
 </div>
 
@@ -433,4 +434,6 @@ If you've made it through this guide, you now have all the tools needed to set u
 
 If you want to support me, you can do so via the following:
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A3733GWR)
+<a href="https://www.buymeacoffee.com/ojaysan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+<a href='https://ko-fi.com/A3733GWR' target='_blank'><img height='36' style='border:0px;height:36px;width:217px' src='https://ko-fi.com/img/githubbutton_sm.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
