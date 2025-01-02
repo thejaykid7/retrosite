@@ -50,19 +50,20 @@ The items in Utilities are optional but help make the experience nicer. In this 
 ##### Utilities
 | App            | Description                                                                                                                                                                                                                                                                                              |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Obtainium      | to keep track of apps not on the playstore                                                                                                                                                                                                                                                               |
-| Odin Tools     | to control fan settings when opening specific apps                                                                                                                                                                                                                                                       |
-| Syncthing      | to sync your files for multiple devices                                                                                                                                                                                                                                                                  |
-| Zarchiver      | to handle unzips                                                                                                                                                                                                                                                                                         |
-| Rufus          | for flashing and setting up ext4                                                                                                                                                                                                                                                                         |
-| google account | for android ecosystem. Create a Google account if you already don't have one. You'll want this for setting up your handheld. You can get away without this, but you won't have access to the play store to grab the above apps. If you're advanced, you can use F-Droid or Aurora store so get the apps. |
+| [Obtainium](https://github.com/ImranR98/Obtainium/releases)      | to keep track of apps not on the playstore                                                                                                                                                                                                                                                               |
+| [Odin Tools](https://github.com/langerhans/OdinTools/releases)     | to control fan settings when opening specific apps                                                                                                                                                                                                                                                       |
+| [Syncthing](https://play.google.com/store/apps/details?id=com.github.catfriend1.syncthingandroid&hl=en_US)      | to sync your files for multiple devices                                                                                                                                                                                                                                                                  |
+| [Zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=en_US)      | to handle unzips                                                                                                                                                                                                                                                                                         |
+| [Rufus](https://rufus.ie/)          | for flashing and setting up ext4                                                                                                                                                                                                                                                                         |
+| [UniPatcher](https://github.com/btimofeev/UniPatcher/releases) | for adding patches to apps |
+| Google Account | for android ecosystem. Create a Google account if you already don't have one. You'll want this for setting up your handheld. You can get away without this, but you won't have access to the play store to grab the above apps. If you're advanced, you can use F-Droid or Aurora store so get the apps. |
 
 
 #### Paid
 
 ##### Frontend
 
-- ES-DE - The frontend you'll be setting up. It is paid, but very much worth using. Refer to their site to purchase and download the app. It's a one time deal but be sure to follow their instructions to cancel so you don't get charged monthly (unless you want to)!
+- [Emulation Station](https://www.es-de.org) (ES-DE) - The frontend you'll be setting up. It is paid, but very much worth using. Refer to their site to purchase and download the app. It's a one time deal but be sure to follow their instructions to cancel so you don't get charged monthly (unless you want to)!
 	-  Screenscraper - This site is where you'll be getting your artwork for your games. Create an account (its free) and save your account info for later.
 
 #### Core
@@ -72,15 +73,15 @@ The items in Utilities are optional but help make the experience nicer. In this 
 | System          | Emulator              |
 | --------------- | --------------------- |
 | 3DS             | Citra                 |
-| DS              | Drastic               |
-| GameCube        | Dolphin               |
-| GameBoy         | Retroarch             |
-| GameBoy Color   | Retroarch             |
-| GameBoy Advance | Retroarch             |
-| PS1             | Retroarch             |
-| PS2             | Aethersx2 / Nethersx2 |
+| DS              | [Drastic](https://play.google.com/store/apps/details?id=com.dsemu.drastic&hl=en-US)               |
+| GameCube        | [Dolphin](https://dolphin-emu.org/)               |
+| GameBoy         | [Retroarch](https://www.retroarch.com/)              |
+| GameBoy Color   | [Retroarch](https://www.retroarch.com/)              |
+| GameBoy Advance | [Retroarch](https://www.retroarch.com/)              |
+| PS1             | [Retroarch](https://www.retroarch.com/)              |
+| PS2             | [Aethersx2 / Nethersx2](https://github.com/Trixarian/NetherSX2-patch/releases) |
 | Switch          | Yuzu                  |
-| Wii             | Dolphin               |
+| Wii             | [Dolphin](https://dolphin-emu.org/)               |
 
 ### Configure your microSD Card
 
@@ -329,7 +330,7 @@ Here's what I use. Keep in mind this is referencing  the stock Retroid layout wh
 
 This section will only cover the basics to get started. There's a lot for Wii and this page will be updated to cover other profiles soon.
 
-Wii Remote 1 select "Emulated Wii Remote, then select the cog button.
+Wii Remote 1 select "Emulated Wii Remote", then select the cog button.
 
 | Extension | Buttons   |
 | --------- | --------- |
@@ -347,12 +348,17 @@ Wii Remote 1 select "Emulated Wii Remote, then select the cog button.
 ###### D-pad
 Set as normal
 
+###### Motion Sensing
+
 The following is for the motion sensing portion. This will allow you to use software to point while holding down L3/R3.
 
 | App             | Controller |
 | --------------- | ---------- |
 | Sideways toggle | L3         |
 | Upright toggle  | R3         |
+
+!!! Note
+	This is purely preference, you can set this however you like, but this is the easiest from what I have tried.
 
 #### Citra
 
@@ -368,7 +374,7 @@ Configuring Citra is straightforward compared to the previous systems.
 
 ##### Device Input Setup
 
-Similar to other emulators discussed earlier, the inputs by mapping each button to the respective entries. The main thing here is to go into controller settings and then "Touchscreen" tab. Here find the "Hide With External Controller" and make sure the toggle is on. This will hide the input control overlay. Next, go to the "Controller Port 1". You can try the automatic mapping but I find that it doesn't work for all android handhelds. Otherwise, go ahead and assign the respective keys to each entry.
+Similar to other emulators discussed earlier, the inputs by mapping each button to the respective entries. The main thing here is to go into controller settings and then "Touchscreen" tab. Here find the "Hide With External Controller" and make sure the toggle is on. This will hide the input control overlay. Next, go to the "Controller Port 1". You can try the automatic mapping but I find that it doesn't work for all android handhelds. Otherwise, go ahead and assign the respective keys to each entry. If you're using a switch style layout, its pretty straightforward.
 
 #### Yuzu
 

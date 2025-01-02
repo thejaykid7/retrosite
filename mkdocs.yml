@@ -14,6 +14,7 @@ theme:
     - toc.integrate
     - navigation.top
     - navigation.indexes
+  custom_dir: overrides
   font:
     text: Roboto
   icon:
@@ -44,6 +45,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 plugins:
   - glightbox
@@ -52,3 +56,4 @@ plugins:
       blog_toc: true
   - search
   - privacy
+  - tags  
