@@ -48,6 +48,12 @@ I highly suggest to get a good card that's large. Buy once, cry once as they say
 | Samsung | 512GB | V30 ideal | Usually cheaper        | Has different offerings and levels of quality | [Amazon](https://amzn.to/4gAb6af) |
 | Sandisk | 512GB | V30 ideal | Usually more expensive | Has fewer offerings of quality levels         | [Amazon](https://amzn.to/40jAUBq) |
 
+| SD Card Reader | Specs    | Notes                                         | Links |
+| ------- | ----- | ---------------------- | --------------------------------------------- |
+| Anker | USB-A | Oldest reader I have used. Cheapest.         | [Amazon](https://amzn.to/3PpujPC) |
+| Anker | USB-C | I like Anker products. This is a good middle ground         | [Amazon](https://amzn.to/4fJxxbu) |
+| Anker | USB-C | Suports higher end cards, so more expensive. This is what I use.         | [Amazon](https://amzn.to/4j0cnJ6) |
+
 ### Apps & Software
 
 The items in Utilities are optional but help make the experience nicer. In this guide we are using ES-DE as our game launcher but it is optional. Retroid for example has their own game launcher but this guide is not currently focused on using that application.
