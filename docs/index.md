@@ -1,2 +1,2 @@
-# Log Entry
+# Entries
 

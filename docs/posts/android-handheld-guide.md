@@ -19,7 +19,7 @@ comments: true
 
 # Retro Handheld Setup Primer
 
-### Introduction
+## Introduction
 
 So you want to setup your shiny Retroid Pocket device, or another Android handheld device? This guide will help you with getting your started. This guide will serve to give you the basic information before you dive deeper into other guides available online. I created this guide to help those are new to the retro handheld community, and hope this helps you with getting started. This guide in particular targets the Retroid Pocket 4/pro, 5 and Mini models. But it very well scales up to the likes of the Ayn Odin 2. I made it this way so that you can get an idea of the floor settings and can bump up graphics settings from there.
 
@@ -76,7 +76,8 @@ The items in Utilities are optional but help make the experience nicer. In this 
 ##### Frontend
 
 - [Emulation Station](https://www.es-de.org) (ES-DE) - The frontend you'll be setting up. It is paid, but very much worth using. Refer to their site to purchase and download the app. It's a one time deal but be sure to follow their instructions to cancel so you don't get charged monthly (unless you want to)!
-	-  Screenscraper - This site is where you'll be getting your artwork for your games. Create an account (its free) and save your account info for later.
+	-  [Screenscraper](http://screenscraper.fr/) - One of the possible places where you'll be getting your artwork for your games. Create an account (its free) and save your account info for later.
+  - thegamesdb - free database for scraping your artwork
 
 #### Core
 
@@ -179,7 +180,7 @@ When you open the app back up, you'll be greeted with a Playstation like theme. 
 
 Remember when I mentioned about having your configuration saved in your sd card? Well, you can do that in RetroArch. Find the **Cog Icon**->**Directory** from there you can select wherever you'd like to store the various files. I think at the minimum I would configure the configuration file and core. That way, you won't need to redownload these next time and just use this same setup to repoint them on a different device.
 
-The first thing you will want to do is enable **Save Configuration on Quit** as this saved me so many times when I change a setting and forget to save it. Yes, Retroarch does not save upon the change. After this, go back to the main section and find the cog section and select **Save Current Configuration**.
+The first thing you will want to do is enable **Save Configuration on Quit** as this saved me so many times when I change a setting and forget to save it. Yes, Retroarch does not save upon the change by default. After this, go back to the main section and find the cog section and select **Save Current Configuration**.
 
 <div class="grid" markdown>
 
@@ -440,6 +441,10 @@ See the citra setup, its the same changes here.
 Will be filled out later
 
 ### Syncthing
+
+will be filled out later
+
+### Ambiodin
 
 will be filled out later
 
