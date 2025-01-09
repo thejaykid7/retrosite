@@ -17,11 +17,11 @@ tags:
 comments: true
 ---
 
-# Retro Handheld Setup Primer
+# Android Retro Handheld Setup Primer
 
-## Introduction
+### Introduction
 
-So you want to setup your shiny Retroid Pocket device, or another Android handheld device? This guide will help you with getting your started. This guide will serve to give you the basic information before you dive deeper into other guides available online. I created this guide to help those are new to the retro handheld community, and hope this helps you with getting started. This guide in particular targets the Retroid Pocket 4/pro, 5 and Mini models. But it very well scales up to the likes of the Ayn Odin 2. I made it this way so that you can get an idea of the floor settings and can bump up graphics settings from there.
+So you want to setup your shiny Retroid Pocket device, or another Android handheld device like Ayn Odin 2? This guide will help you with getting your started. This guide will serve to give you the basic information before you dive deeper into other guides available online. I created this guide to help those are new to the retro handheld community, and hope this helps you with getting started. This guide in particular targets the Retroid Pocket 4/pro, 5 and Mini models. But it very well scales up to the likes of the Ayn Odin 2. I made it this way so that you can get an idea of the floor settings and can bump up graphics settings from there.
 
 <!-- more -->
 
@@ -54,6 +54,7 @@ I highly suggest to get a good card that's large. Buy once, cry once as they say
 | Anker | USB-C | I like Anker products. This is a good middle ground         | [Amazon](https://amzn.to/4fJxxbu) |
 | Anker | USB-C | Suports higher end cards, so more expensive. This is what I use.         | [Amazon](https://amzn.to/4j0cnJ6) |
 
+
 ### Apps & Software
 
 The items in Utilities are optional but help make the experience nicer. In this guide we are using ES-DE as our game launcher but it is optional. Retroid for example has their own game launcher but this guide is not currently focused on using that application.
@@ -63,7 +64,7 @@ The items in Utilities are optional but help make the experience nicer. In this 
 | App            | Description                                                                                                                                                                                                                                                                                              |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Obtainium](https://github.com/ImranR98/Obtainium/releases)      | to keep track of apps not on the playstore                                                                                                                                                                                                                                                               |
-| [Odin Tools](https://github.com/langerhans/OdinTools/releases)     | to control fan, cpu and button layout settings when opening specific apps                                                                                                                                                                                                                                                       |
+| [Odin Tools](https://github.com/langerhans/OdinTools/releases)     | to control fan settings when opening specific apps                                                                                                                                                                                                                                                       |
 | [Syncthing](https://play.google.com/store/apps/details?id=com.github.catfriend1.syncthingandroid&hl=en_US)      | to sync your files for multiple devices                                                                                                                                                                                                                                                                  |
 | [Zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=en_US)      | to handle unzips                                                                                                                                                                                                                                                                                         |
 | [Rufus](https://rufus.ie/)          | for flashing and setting up ext4                                                                                                                                                                                                                                                                         |
@@ -76,8 +77,7 @@ The items in Utilities are optional but help make the experience nicer. In this 
 ##### Frontend
 
 - [Emulation Station](https://www.es-de.org) (ES-DE) - The frontend you'll be setting up. It is paid, but very much worth using. Refer to their site to purchase and download the app. It's a one time deal but be sure to follow their instructions to cancel so you don't get charged monthly (unless you want to)!
-	-  [Screenscraper](http://screenscraper.fr/) - One of the possible places where you'll be getting your artwork for your games. Create an account (its free) and save your account info for later.
-  - thegamesdb - free database for scraping your artwork
+	-  Screenscraper - This site is where you'll be getting your artwork for your games. Create an account (its free) and save your account info for later.
 
 #### Core
 
@@ -105,7 +105,7 @@ You have two options:
 1. If you already have an android device with microSD card support. Use the device to format in portable mode, this allows you to move the card around and you can transfer from your PC directly. You might be able to get a USB to sdcard dongle but I've never really tested that method. YMMV.
 2. Use Rufus on PC to format the microSD card. This may work, but is untested and generally would suggest to use the handheld to format it or an android device.
 
-It's going to pay off to be organized. We're going to organize the ROMS folder to conform to ES-DE's structure here. Here's an example of how I set up my sdcard with a file structure like the following:
+It's going to pay off to be organized so here's an example of how I set up my sdcard with a file structure like the following:
 
 ```
 .
@@ -156,6 +156,16 @@ First things first, you would want to decide where you want to place these confi
 
 Turn off the lock screen to use no lock via the system settings under settings->lock screen and select none
 
+#### Obtainium
+
+<div class="grid" markdown>
+
+![Image title](media/android-guide/odin_tools_1.png){ loading=lazy }
+
+![Image title](media/android-guide/odin_tools_2.png){ loading=lazy }
+
+</div>
+
 #### RetroArch
 
 This is probably the least favorite app to set up. But it contains most of the older systems so its great in that way. The UI and navigation is a bit weird at first if you're not familar with computers but it works more or less like a terminal in terms of how the navigation works. 
@@ -180,7 +190,7 @@ When you open the app back up, you'll be greeted with a Playstation like theme. 
 
 Remember when I mentioned about having your configuration saved in your sd card? Well, you can do that in RetroArch. Find the **Cog Icon**->**Directory** from there you can select wherever you'd like to store the various files. I think at the minimum I would configure the configuration file and core. That way, you won't need to redownload these next time and just use this same setup to repoint them on a different device.
 
-The first thing you will want to do is enable **Save Configuration on Quit** as this saved me so many times when I change a setting and forget to save it. Yes, Retroarch does not save upon the change by default. After this, go back to the main section and find the cog section and select **Save Current Configuration**.
+The first thing you will want to do is enable **Save Configuration on Quit** as this saved me so many times when I change a setting and forget to save it. Yes, Retroarch does not save upon the change. After this, go back to the main section and find the cog section and select **Save Current Configuration**.
 
 <div class="grid" markdown>
 
@@ -411,6 +421,16 @@ Similar to other emulators discussed earlier, the inputs by mapping each button 
 
 #### Yuzu
 
+<div class="grid" markdown>
+
+![Image title](media/android-guide/yuzu_1.png){ loading=lazy }
+
+![Image title](media/android-guide/yuzu_2.png){ loading=lazy }
+
+![Image title](media/android-guide/yuzu_3.png){ loading=lazy }
+
+</div>
+
 ##### Configuration
 
 Unfortunately Yuzu and other similar emulators may require configurations per game but I will try to outline the general things that you may need to change. There is a per game setting so once you set that up you won't have to change it. For example, the driver and audio settings may need to set on a per game basis. But you can set the global default and then tweak on each game that does not work with said settings. To modify a game's setting, tap and hold the respective game and then you'll be in the sub menu for it.
@@ -438,15 +458,21 @@ See the citra setup, its the same changes here.
 
 ### Odin Tools
 
-Will be filled out later
+<div class="grid" markdown>
+
+![Image title](media/android-guide/odin_tools_1.png){ loading=lazy }
+
+![Image title](media/android-guide/odin_tools_2.png){ loading=lazy }
+
+</div>
 
 ### Syncthing
 
 will be filled out later
 
-### Ambiodin
+### Streaming
 
-will be filled out later
+PXPlay / Moonlight
 
 ## Complete the Look
 
